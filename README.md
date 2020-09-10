@@ -23,7 +23,7 @@ System requirements:
 Then:
 
 1. Clone this repository
-1. Copy `.eng.example` as `.env`.
+1. Copy `.env.example` as `.env`.
 1. Run `make clean` from the local clone. (causes error in freshly cloned project, but that's ok)
 1. Run `make install`
 1. Run `make run` to use the local PHP server
