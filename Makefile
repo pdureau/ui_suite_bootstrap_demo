@@ -1,10 +1,10 @@
 .PHONY: clean install update upgrade check dist run export_content reimport_content
 
 clean:
-	chmod 777 web/sites/default/files/
-	rm -rf web/sites/default/files/*
-	rm -rf web/sites/default/files/.*
-	cp .env.example .env
+	- chmod 777 web/sites/default/files/
+	- rm -rf web/sites/default/files/*
+	- rm -rf web/sites/default/files/.*
+	- cp .env.example .env
 
 install:
 	mkdir -p web/sites/default/files/
