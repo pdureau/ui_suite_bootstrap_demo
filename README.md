@@ -13,12 +13,18 @@ With a focus on those example pages:
 
 ## Installation
 
-On your system, you need [git](https://git-scm.com/), [composer](https://getcomposer.org/), [sqlite](https://www.sqlite.org) and [make](https://www.gnu.org/software/make/) installed.
+System requirements:
+
+- [git](https://git-scm.com/)
+- [composer](https://getcomposer.org/)
+- [sqlite](https://www.sqlite.org) and the sqlite extension for your PHP version, e.g. php7.3-sqlite3.
+- [make](https://www.gnu.org/software/make/) installed.
 
 Then:
 
 1. Clone this repository
-1. Run `make clean` from the local clone
+1. Copy `.env.example` as `.env`.
+1. Run `make clean` from the local clone. (causes error in freshly cloned project, but that's ok)
 1. Run `make install`
 1. Run `make run` to use the local PHP server
 
